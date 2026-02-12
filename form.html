@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Joshua Summers - Form Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<p><a href="index.html">Back to Intro Page</a></p>
+
+<h2>Contact Form</h2>
+<h4>Please complete the information below</h4>
+
+<form action="#" method="post">
+
+  <p>
+    Full Name:<br>
+    <input type="text" name="fullname">
+  </p>
+
+  <p>
+    Password:<br>
+    <input type="password" name="password">
+  </p>
+
+  <p>
+    Preferred Contact Method:<br>
+    <input type="radio" name="contact" value="email"> Email<br>
+    <input type="radio" name="contact" value="phone"> Phone<br>
+    <input type="radio" name="contact" value="text"> Text
+  </p>
+
+  <p>
+    Interested In:<br>
+    <input type="checkbox" name="service" value="consulting"> Consulting<br>
+    <input type="checkbox" name="service" value="support"> Support
+  </p>
+
+  <p>
+    Select Services (multiple):<br>
+    <select name="services" multiple size="4">
+      <option value="web">Web Setup</option>
+      <option value="design">Design</option>
+      <option value="hosting">Hosting</option>
+      <option value="training">Training</option>
+    </select>
+  </p>
+
+  <p>
+    Preferred Start Date:<br>
+    <input type="date" name="startdate">
+  </p>
+
+  <p>
+    <input type="submit" value="Submit">
+  </p>
+
+</form>
+
+</body>
+</html>
